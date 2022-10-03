@@ -1,0 +1,71 @@
+
+/* div {
+    /* outline: 1px solid red; */
+html{
+    background-color: rgb(4, 20, 73);
+}
+
+body {
+    outline: 1px solid rgb(29, 7, 137);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(255, 255, 255);   
+}
+
+.Encabezado{
+    text-align: center;
+}
+
+.Personal-Data {
+    background-color: hsl(261, 46%, 31%);
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+}
+
+.Info {
+    border-radius: 15px;
+    padding: 10px;
+    margin:0px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    background-color: hsl(261, 43%, 43%);
+    text-align: justify;
+}
+
+img{
+    width: 200px;
+    height: 200px;  
+    border-radius: 999px;
+}
+
+header{
+    display: flex;
+}
+
+#menu ul {
+    list-style:none;
+    margin:0px;
+    padding: 0px;
+    display:grid;
+   }    
+
+   #menu ul li {
+    background-color:#2e518b;
+   }
+
+   .Contenedor1 {
+    background-color: rgb(74, 144, 60);
+    border-radius: 15px;
+    padding: auto;
+    color: aliceblue;
+    margin-bottom: 0px;
+}
+
+.Academia{
+    background-color: rgb(68, 125, 56);
+    border-radius: 15px;
+    padding: auto;
+    color: aliceblue;
+    margin-top: 0px;
+}
