@@ -1,0 +1,118 @@
+html, div, .MenuPrincipal {
+    outline: 1px solid red;
+    /* overflow-y: hidden; */
+
+}
+
+/* Menu fijo en la parte superior, aqui estan los elementos y botones del menu*/
+.MenuPrincipal{
+    float: inherit;
+    position: fixed;
+    background-color: white;
+}
+
+    .ContHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        /* Aqui esta el contenedor Izq que tiene el Logo, Boton Inicio, y Lista Crear */
+        .ContIzq{
+            display: flex;
+            align-items:center;
+            padding: 15px;
+        }
+
+            .ContLogo {
+                width: 50px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .BtnInicio {
+                border: transparent;
+                border-radius: 50px;
+            }
+
+            .Inicio {
+                background-color: rgb(12, 10, 10);
+                color: aliceblue;
+                border-radius: 50px;
+                width: 70px;
+                height: 40px;
+            }
+
+            .ListaCrear {
+                width: 15px;
+            }
+
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        margin: 15px;
+    }
+    /* Este es el contenedor con el Buscador */
+    .ContBuscar {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        border: none;
+        border-radius: 900px;
+        width: 800px;
+        height: 40px;
+        background-color: rgb(219, 219, 219);
+    }
+    
+        .Buscar{
+            background-color: rgb(219, 219, 219);
+            border-radius: 900px;
+            border: transparent;
+            color: rgb(42, 42, 42);
+            width: 750px;    
+            height: 40px;
+        }
+
+    /* Contenedor del menu principal Derecho, contiene Iconos de Notificaciones, Mensajes y Cuenta de usuario */
+    .ContDer  {
+        display: flex;
+        align-items:center;
+    /* justify-content:space-between; */
+    /* width: fit-content; */
+        padding: 15px;
+    }
+
+    /* Contenedor con los elementos de Notificación, Mensajes y Cuenta de Usuario */
+    .Notificaciones{
+        width: 150px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .Notifica, .Mensaje, .Foto {
+            display: flex;
+            width: 40px;
+            height: 40px;
+        }
+
+main {
+    padding-top: 70px;
+} 
+/* .ContMain {
+   margin-top: 100px;
+} */
+        p:before {
+            content: "Contenido generado \"dinámicamente\" mediante CSS. ";
+            margin-top: 200px;
+          }
+          #ultimo:after {
+            content: " Fin de los 'contenidos' de la página.";
+          }
+
+
